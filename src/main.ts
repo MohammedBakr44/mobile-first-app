@@ -24,7 +24,7 @@ function loader(target: HTMLElement) {
 };
 
 
-unsplash.photos.getRandomPhoto({query: "future", count: images.length + 1})
+unsplash.photos.getRandomPhoto({query: "nature", count: images.length + 1})
 .then(toJson)
 .then((json: any) => {
     for(let img in images) {
