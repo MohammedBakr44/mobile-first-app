@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
+
+$font: 'Roboto Condensed', sans-serif;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: $font;
+    background-color: #eee;
+    height: auto;
+    overflow: hidden;
+}
+
+main {
+    max-width: 900px;
+    margin: auto;
+    box-shadow: 30px 0 40px rgba(0, 0, 0, 0.1),
+    -30px 0 40px rgba(0, 0, 0, .1);
+    position: relative;
+    z-index: 1;
+}
+
+.fade-out {
+    animation: fade 1s ease-in-out;
+}
+
+@keyframes fade {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}

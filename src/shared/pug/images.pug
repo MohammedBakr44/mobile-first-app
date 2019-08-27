@@ -1,0 +1,16 @@
+//- mixins
+
+mixin image(title)
+    img(src="")
+    .caption
+        h3 #{title}
+        p Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, culpa!
+
+#images
+    #header
+        h2 Our Work
+    +image("Photo one")
+    +image("Photo two")
+    +image("Photo three")   
+    +image("Photo four")  
+    +image("Photo five")

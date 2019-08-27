@@ -1,0 +1,17 @@
+@media screen and (min-width: 500px) {
+    #landing {
+        display: flex;
+        height: 100vh;
+        // align-items: stretch;
+
+        &-text, &-image {
+            height: 100vh !important;
+        }
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .btn {
+        padding: 1rem 3rem !important;
+    }
+}
