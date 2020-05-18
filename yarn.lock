@@ -2112,10 +2112,10 @@ duplexer2@~0.1.4:
   dependencies:
     readable-stream "^2.0.2"
 
-easy-scroll@^0.6.0:
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/easy-scroll/-/easy-scroll-0.6.0.tgz#15f8e27a9b12b146e18ac251e495906511922b88"
-  integrity sha512-IPiUjfVKYJELqSC4kQkI0Cr82BcI+V/lhonHwZn8+KV7104pFooRYORJj7jffsc4m+Nt34RsJZGY7Xu8Qu4iEw==
+easy-scroll@^0.7.0:
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/easy-scroll/-/easy-scroll-0.7.0.tgz#1da9fd1ae320fdb701d3a2a972ec9503fec43f8c"
+  integrity sha512-FIP+UjU58SG/Hig8u3B8Ld5ssRGzTvv4aOxQLskyvQVnoEEftWe221hw39qyx6jYe2hU2trBVp/lPZbT+SVA4A==
 
 ecc-jsbn@~0.1.1:
   version "0.1.2"
